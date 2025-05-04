@@ -1,0 +1,1383 @@
+2025-05-04 20:37:49,197 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 20:37:49,197 - car_license - INFO - 成功加载配置
+2025-05-04 20:37:49,197 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:37:49,238 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:37:49,238 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:37:49,363 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:37:49,510 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:37:49,510 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:37:49,510 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 20:37:51,998 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 20:37:53,595 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 20:37:54,111 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 20:37:54,579 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 20:37:54,579 - car_license - INFO - 训练完成
+2025-05-04 20:38:02,949 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:38:02,949 - car_license - INFO - 开始定位车牌
+2025-05-04 20:38:02,965 - car_license - ERROR - 车牌定位失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'boxPoints'
+> Overload resolution failed:
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+
+2025-05-04 20:38:02,965 - car_license - ERROR - 车牌识别失败: 车牌定位失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'boxPoints'
+> Overload resolution failed:
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+
+2025-05-04 20:38:02,965 - car_license - ERROR - 识别失败: 车牌定位失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'boxPoints'
+> Overload resolution failed:
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+
+2025-05-04 20:38:11,055 - car_license - INFO - 关闭应用程序
+2025-05-04 20:40:05,964 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 20:40:05,964 - car_license - INFO - 成功加载配置
+2025-05-04 20:40:05,964 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:40:06,005 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:40:06,006 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:40:06,100 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:40:06,182 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:40:06,201 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:40:06,201 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 20:40:08,076 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 20:40:09,245 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 20:40:09,691 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 20:40:10,126 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 20:40:10,126 - car_license - INFO - 训练完成
+2025-05-04 20:40:15,604 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:40:15,604 - car_license - INFO - 开始定位车牌
+2025-05-04 20:40:15,604 - car_license - ERROR - 车牌识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:15,604 - car_license - ERROR - 识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:20,819 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:40:20,819 - car_license - INFO - 开始定位车牌
+2025-05-04 20:40:20,819 - car_license - ERROR - 车牌识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:20,819 - car_license - ERROR - 识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:24,518 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:40:24,518 - car_license - INFO - 开始定位车牌
+2025-05-04 20:40:24,536 - car_license - ERROR - 车牌识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:24,536 - car_license - ERROR - 识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:29,847 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:40:29,847 - car_license - INFO - 开始定位车牌
+2025-05-04 20:40:29,847 - car_license - ERROR - 车牌识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:29,847 - car_license - ERROR - 识别失败: 未找到合适的车牌区域
+2025-05-04 20:40:33,756 - car_license - INFO - 关闭应用程序
+2025-05-04 20:42:40,030 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 20:42:40,030 - car_license - INFO - 成功加载配置
+2025-05-04 20:42:40,030 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:42:40,068 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:42:40,068 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:42:40,172 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:42:40,248 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:42:40,265 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:42:40,265 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 20:42:42,193 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 20:42:43,381 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 20:42:43,852 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 20:42:44,312 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 20:42:44,312 - car_license - INFO - 训练完成
+2025-05-04 20:42:49,453 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:42:49,453 - car_license - INFO - 开始定位车牌
+2025-05-04 20:42:49,582 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:42:49,587 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(72, 385, 3)
+2025-05-04 20:42:49,629 - car_license - INFO - 车牌颜色: yello
+2025-05-04 20:42:49,629 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:42:49,629 - car_license - INFO - 开始分割字符
+2025-05-04 20:42:49,697 - car_license - WARNING - 分割出的字符数量不合理: 3
+2025-05-04 20:42:49,708 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:42:49,709 - car_license - INFO - 开始识别字符
+2025-05-04 20:42:49,715 - car_license - INFO - 字符识别结果: 津11
+2025-05-04 20:42:49,715 - car_license - INFO - 识别结果: 津11
+2025-05-04 20:43:02,234 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:43:02,234 - car_license - INFO - 开始定位车牌
+2025-05-04 20:43:02,253 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:43:02,255 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(41, 216, 3)
+2025-05-04 20:43:02,259 - car_license - INFO - 车牌颜色: blue
+2025-05-04 20:43:02,260 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:43:02,260 - car_license - INFO - 开始分割字符
+2025-05-04 20:43:02,261 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 20:43:02,263 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:43:02,263 - car_license - INFO - 开始识别字符
+2025-05-04 20:43:02,264 - car_license - INFO - 字符识别结果: 粤
+2025-05-04 20:43:02,264 - car_license - INFO - 识别结果: 粤
+2025-05-04 20:43:11,162 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:43:11,162 - car_license - INFO - 开始定位车牌
+2025-05-04 20:43:13,793 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:43:13,868 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(187, 446, 3)
+2025-05-04 20:43:13,884 - car_license - INFO - 车牌颜色: yello
+2025-05-04 20:43:13,885 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:43:13,885 - car_license - INFO - 开始分割字符
+2025-05-04 20:43:13,886 - car_license - WARNING - 分割出的字符数量不合理: 3
+2025-05-04 20:43:13,890 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:43:13,890 - car_license - INFO - 开始识别字符
+2025-05-04 20:43:13,891 - car_license - INFO - 字符识别结果: 川9B
+2025-05-04 20:43:13,891 - car_license - INFO - 识别结果: 川9B
+2025-05-04 20:43:21,468 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:43:21,468 - car_license - INFO - 开始定位车牌
+2025-05-04 20:43:21,468 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:43:21,468 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(39, 100, 3)
+2025-05-04 20:43:21,480 - car_license - INFO - 车牌颜色: blue
+2025-05-04 20:43:21,480 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:43:21,481 - car_license - INFO - 开始分割字符
+2025-05-04 20:43:21,482 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 20:43:21,484 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:43:21,484 - car_license - INFO - 开始识别字符
+2025-05-04 20:43:21,485 - car_license - INFO - 字符识别结果: 京
+2025-05-04 20:43:21,485 - car_license - INFO - 识别结果: 京
+2025-05-04 20:43:28,347 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:43:28,347 - car_license - INFO - 开始定位车牌
+2025-05-04 20:43:28,385 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:43:28,390 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(187, 456, 3)
+2025-05-04 20:43:28,394 - car_license - INFO - 车牌颜色: blue
+2025-05-04 20:43:28,394 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:43:28,395 - car_license - INFO - 开始分割字符
+2025-05-04 20:43:28,396 - car_license - WARNING - 分割出的字符数量不合理: 2
+2025-05-04 20:43:28,399 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:43:28,399 - car_license - INFO - 开始识别字符
+2025-05-04 20:43:28,401 - car_license - INFO - 字符识别结果: 津1
+2025-05-04 20:43:28,401 - car_license - INFO - 识别结果: 津1
+2025-05-04 20:43:43,578 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:43:43,578 - car_license - INFO - 开始定位车牌
+2025-05-04 20:43:43,578 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:43:43,594 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(72, 385, 3)
+2025-05-04 20:43:43,598 - car_license - INFO - 车牌颜色: yello
+2025-05-04 20:43:43,598 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:43:43,598 - car_license - INFO - 开始分割字符
+2025-05-04 20:43:43,599 - car_license - WARNING - 分割出的字符数量不合理: 3
+2025-05-04 20:43:43,604 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:43:43,604 - car_license - INFO - 开始识别字符
+2025-05-04 20:43:43,605 - car_license - INFO - 字符识别结果: 津11
+2025-05-04 20:43:43,605 - car_license - INFO - 识别结果: 津11
+2025-05-04 20:44:31,949 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:44:31,949 - car_license - INFO - 开始定位车牌
+2025-05-04 20:44:31,949 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:44:31,967 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(51, 130, 3)
+2025-05-04 20:44:31,969 - car_license - INFO - 车牌颜色: yello
+2025-05-04 20:44:31,969 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:44:31,969 - car_license - INFO - 开始分割字符
+2025-05-04 20:44:31,969 - car_license - WARNING - 分割出的字符数量不合理: 2
+2025-05-04 20:44:31,975 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:44:31,975 - car_license - INFO - 开始识别字符
+2025-05-04 20:44:31,977 - car_license - INFO - 字符识别结果: 京B
+2025-05-04 20:44:31,977 - car_license - INFO - 识别结果: 京B
+2025-05-04 20:45:20,276 - car_license - INFO - 关闭应用程序
+2025-05-04 20:49:24,284 - car_license - INFO - 正在加载配置文件: F:\code\DIP\carLicense\config.json
+2025-05-04 20:49:24,284 - car_license - INFO - 成功加载配置
+2025-05-04 20:49:24,294 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:49:24,325 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:49:24,325 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:49:24,429 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:49:24,510 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:49:24,522 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:49:24,522 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 20:50:56,244 - car_license - INFO - 正在加载配置文件: F:\code\DIP\carLicense\config.json
+2025-05-04 20:50:56,244 - car_license - INFO - 成功加载配置
+2025-05-04 20:50:56,246 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:50:56,276 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:50:56,277 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:50:56,382 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:50:56,463 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:50:56,474 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:50:56,474 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 20:51:56,028 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 20:51:56,029 - car_license - INFO - 成功加载配置
+2025-05-04 20:51:56,030 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:51:56,060 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:51:56,061 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:51:56,165 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:51:56,245 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:51:56,248 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:51:56,248 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 20:52:40,479 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 20:52:42,048 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 20:53:11,004 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 20:53:11,575 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 20:53:11,576 - car_license - INFO - 训练完成
+2025-05-04 20:53:43,445 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 20:53:44,924 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 20:54:09,752 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 20:54:10,285 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 20:54:10,297 - car_license - INFO - 训练完成
+2025-05-04 20:55:23,063 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:55:23,063 - car_license - INFO - 开始定位车牌
+2025-05-04 20:55:23,072 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:55:23,075 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(51, 130, 3)
+2025-05-04 20:55:23,078 - car_license - INFO - 车牌颜色: yello
+2025-05-04 20:55:23,079 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:55:23,079 - car_license - INFO - 开始分割字符
+2025-05-04 20:55:23,477 - car_license - WARNING - 分割的字符数量不合理: 2，尝试调整阈值...
+2025-05-04 20:55:23,489 - car_license - WARNING - 分割字符数量异常(2)，尝试等距离分割
+2025-05-04 20:55:23,495 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:55:23,495 - car_license - INFO - 开始识别字符
+2025-05-04 20:55:23,556 - car_license - INFO - 字符识别结果: 赣B077BB
+2025-05-04 20:55:23,557 - car_license - INFO - 识别结果: 赣B077BB
+2025-05-04 20:55:37,470 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:55:37,470 - car_license - INFO - 开始定位车牌
+2025-05-04 20:55:37,478 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:55:37,486 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(72, 385, 3)
+2025-05-04 20:55:37,489 - car_license - INFO - 车牌颜色: yello
+2025-05-04 20:55:37,489 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:55:37,489 - car_license - INFO - 开始分割字符
+2025-05-04 20:55:37,491 - car_license - WARNING - 分割的字符数量不合理: 4，尝试调整阈值...
+2025-05-04 20:55:37,495 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:55:37,501 - car_license - INFO - 开始识别字符
+2025-05-04 20:55:37,541 - car_license - INFO - 字符识别结果: 津7B7JE
+2025-05-04 20:55:37,541 - car_license - INFO - 识别结果: 津7B7JE
+2025-05-04 20:55:47,198 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:55:47,198 - car_license - INFO - 开始定位车牌
+2025-05-04 20:55:47,200 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:55:47,200 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(39, 100, 3)
+2025-05-04 20:55:47,205 - car_license - INFO - 车牌颜色: blue
+2025-05-04 20:55:47,206 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:55:47,206 - car_license - INFO - 开始分割字符
+2025-05-04 20:55:47,208 - car_license - WARNING - 分割的字符数量不合理: 5，尝试调整阈值...
+2025-05-04 20:55:47,219 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:55:47,220 - car_license - INFO - 开始识别字符
+2025-05-04 20:55:47,269 - car_license - INFO - 字符识别结果: 川MMGM7M
+2025-05-04 20:55:47,269 - car_license - INFO - 识别结果: 川MMGM7M
+2025-05-04 20:55:53,332 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:55:53,332 - car_license - INFO - 开始定位车牌
+2025-05-04 20:55:53,350 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:55:53,354 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(190, 418, 3)
+2025-05-04 20:55:53,356 - car_license - INFO - 车牌颜色: blue
+2025-05-04 20:55:53,356 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:55:53,356 - car_license - INFO - 开始分割字符
+2025-05-04 20:55:53,360 - car_license - WARNING - 分割的字符数量不合理: 3，尝试调整阈值...
+2025-05-04 20:55:53,362 - car_license - WARNING - 分割出的字符数量不足: 5
+2025-05-04 20:55:53,370 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:55:53,371 - car_license - INFO - 开始识别字符
+2025-05-04 20:55:53,432 - car_license - INFO - 字符识别结果: 津DJJJ11
+2025-05-04 20:55:53,432 - car_license - INFO - 识别结果: 津DJJJ11
+2025-05-04 20:56:07,162 - car_license - INFO - 关闭应用程序
+2025-05-04 20:56:29,786 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 20:56:29,786 - car_license - INFO - 开始定位车牌
+2025-05-04 20:56:29,825 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 20:56:29,833 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(187, 456, 3)
+2025-05-04 20:56:29,836 - car_license - INFO - 车牌颜色: blue
+2025-05-04 20:56:29,837 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 20:56:29,838 - car_license - INFO - 开始分割字符
+2025-05-04 20:56:29,841 - car_license - WARNING - 分割的字符数量不合理: 4，尝试调整阈值...
+2025-05-04 20:56:29,843 - car_license - WARNING - 分割出的字符数量不足: 5
+2025-05-04 20:56:29,851 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 20:56:29,851 - car_license - INFO - 开始识别字符
+2025-05-04 20:56:29,919 - car_license - INFO - 字符识别结果: 津J7JD11
+2025-05-04 20:56:29,919 - car_license - INFO - 识别结果: 津J7JD11
+2025-05-04 20:56:52,926 - car_license - INFO - 关闭应用程序
+2025-05-04 20:59:28,098 - car_license - INFO - 正在加载配置文件: F:\code\DIP\carLicense\config.json
+2025-05-04 20:59:28,098 - car_license - INFO - 成功加载配置
+2025-05-04 20:59:28,100 - car_license - INFO - 启动车牌识别系统
+2025-05-04 20:59:28,131 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 20:59:28,131 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 20:59:28,260 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 20:59:28,363 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 20:59:28,371 - car_license - INFO - 开始训练识别模型
+2025-05-04 20:59:28,372 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:01:08,659 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:01:10,141 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:01:34,833 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:01:35,390 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:01:35,390 - car_license - INFO - 训练完成
+2025-05-04 21:01:47,196 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:01:47,196 - car_license - INFO - 开始定位车牌
+2025-05-04 21:01:47,391 - car_license - INFO - 成功定位车牌: 颜色=yello, 大小=(24, 95, 3)
+2025-05-04 21:01:47,395 - car_license - INFO - 车牌颜色: yello
+2025-05-04 21:01:47,395 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:01:47,395 - car_license - INFO - 开始分割字符
+2025-05-04 21:01:47,406 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:01:47,406 - car_license - INFO - 开始识别字符
+2025-05-04 21:01:47,464 - car_license - INFO - 字符识别结果: 甘MD7G57
+2025-05-04 21:01:47,464 - car_license - INFO - 识别结果: 甘MD7G57
+2025-05-04 21:01:58,259 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:01:58,259 - car_license - INFO - 开始定位车牌
+2025-05-04 21:01:58,296 - car_license - INFO - 成功定位车牌: 颜色=yello, 大小=(70, 86, 3)
+2025-05-04 21:01:58,298 - car_license - INFO - 车牌颜色: yello
+2025-05-04 21:01:58,298 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:01:58,298 - car_license - INFO - 开始分割字符
+2025-05-04 21:01:58,301 - car_license - WARNING - 分割的字符数量不合理: 4，尝试调整阈值...
+2025-05-04 21:01:58,301 - car_license - WARNING - 分割字符数量异常(4)，尝试等距离分割
+2025-05-04 21:01:58,313 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:01:58,314 - car_license - INFO - 开始识别字符
+2025-05-04 21:01:58,359 - car_license - INFO - 字符识别结果: 甘BBBJJJ
+2025-05-04 21:01:58,359 - car_license - INFO - 识别结果: 甘BBBJJJ
+2025-05-04 21:02:02,741 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:02:02,741 - car_license - INFO - 开始定位车牌
+2025-05-04 21:02:02,781 - car_license - INFO - 成功定位车牌: 颜色=blue, 大小=(62, 118, 3)
+2025-05-04 21:02:02,782 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:02:02,782 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:02:02,782 - car_license - INFO - 开始分割字符
+2025-05-04 21:02:02,782 - car_license - WARNING - 分割的字符数量不合理: 1，尝试调整阈值...
+2025-05-04 21:02:02,782 - car_license - WARNING - 分割字符数量异常(2)，尝试等距离分割
+2025-05-04 21:02:02,797 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:02:02,797 - car_license - INFO - 开始识别字符
+2025-05-04 21:02:02,841 - car_license - INFO - 字符识别结果: 川MMMMJD
+2025-05-04 21:02:02,854 - car_license - INFO - 识别结果: 川MMMMJD
+2025-05-04 21:02:07,760 - car_license - INFO - 关闭应用程序
+2025-05-04 21:04:52,712 - car_license - INFO - 正在加载配置文件: F:\code\DIP\carLicense\config.json
+2025-05-04 21:04:52,712 - car_license - INFO - 成功加载配置
+2025-05-04 21:04:52,715 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:04:52,715 - car_license - INFO - 正在加载配置文件: F:\code\DIP\carLicense\config.json
+2025-05-04 21:04:52,715 - car_license - INFO - 成功加载配置
+2025-05-04 21:04:53,184 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:04:53,184 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:04:53,329 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:04:53,420 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:05:13,527 - car_license - INFO - 关闭应用程序
+2025-05-04 21:11:52,521 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:11:52,553 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:11:52,553 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:11:52,554 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:11:52,713 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:11:52,830 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:11:52,843 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:11:52,843 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:12:52,423 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:12:53,640 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 21:13:08,101 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:13:08,568 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:13:08,568 - car_license - INFO - 训练完成
+2025-05-04 21:13:18,751 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:13:18,751 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:13:18,885 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:13:18,885 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:13:18,885 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:13:18,885 - car_license - INFO - 开始分割字符
+2025-05-04 21:13:18,979 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:13:18,980 - car_license - INFO - 开始识别字符
+2025-05-04 21:13:19,013 - car_license - INFO - 字符识别最终结果: 赣C53E53
+2025-05-04 21:13:19,013 - car_license - INFO - 识别结果: 赣C53E53
+2025-05-04 21:13:31,774 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:13:31,774 - car_license - INFO - 原始图像尺寸: 443x313
+2025-05-04 21:13:31,774 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:13:31,774 - car_license - INFO - 车牌颜色: yello
+2025-05-04 21:13:31,774 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:13:31,774 - car_license - INFO - 检测到黄色车牌，应用特殊处理
+2025-05-04 21:13:31,798 - car_license - INFO - 开始分割字符
+2025-05-04 21:13:31,801 - car_license - WARNING - 分割出的字符数量不合理: 3
+2025-05-04 21:13:31,810 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:13:31,810 - car_license - INFO - 开始识别字符
+2025-05-04 21:13:31,824 - car_license - WARNING - 字符数量不足7个，当前为3个
+2025-05-04 21:13:31,825 - car_license - WARNING - 识别出的字符数量不足7个，当前为3个
+2025-05-04 21:13:31,826 - car_license - INFO - 字符识别最终结果: 京CE6666
+2025-05-04 21:13:31,826 - car_license - INFO - 识别结果: 京CE6666
+2025-05-04 21:13:49,269 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:13:49,269 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:13:49,269 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:13:49,269 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:13:49,269 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:13:49,269 - car_license - INFO - 开始分割字符
+2025-05-04 21:13:49,292 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:13:49,292 - car_license - INFO - 开始识别字符
+2025-05-04 21:13:49,323 - car_license - INFO - 字符识别最终结果: 赣C53E53
+2025-05-04 21:13:49,323 - car_license - INFO - 识别结果: 赣C53E53
+2025-05-04 21:13:58,228 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:13:58,258 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:13:58,258 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:13:58,259 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:13:58,366 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:13:58,449 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:13:58,467 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:13:58,467 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:14:12,361 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:14:12,361 - car_license - INFO - 原始图像尺寸: 560x300
+2025-05-04 21:14:12,361 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:14:12,361 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:14:12,361 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:14:12,374 - car_license - INFO - 开始分割字符
+2025-05-04 21:14:12,393 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:14:12,393 - car_license - INFO - 开始识别字符
+2025-05-04 21:14:12,430 - car_license - WARNING - 识别出的字符数量超过7个，截断为7个: 京BE5555
+2025-05-04 21:14:12,430 - car_license - INFO - 字符识别最终结果: 京BE5555
+2025-05-04 21:14:12,430 - car_license - INFO - 识别结果: 京BE5555
+2025-05-04 21:14:21,691 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:14:21,691 - car_license - INFO - 原始图像尺寸: 595x590
+2025-05-04 21:14:21,710 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:14:21,711 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:14:21,712 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:14:21,713 - car_license - INFO - 开始分割字符
+2025-05-04 21:14:21,728 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:14:21,728 - car_license - INFO - 开始识别字符
+2025-05-04 21:14:21,761 - car_license - INFO - 字符识别最终结果: 黑CSEE85
+2025-05-04 21:14:21,761 - car_license - INFO - 识别结果: 黑CSEE85
+2025-05-04 21:14:39,368 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:14:39,368 - car_license - INFO - 原始图像尺寸: 2304x4096
+2025-05-04 21:14:39,470 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:14:39,470 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:14:39,470 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:14:39,470 - car_license - INFO - 开始分割字符
+2025-05-04 21:14:39,482 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 21:14:39,484 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:14:39,485 - car_license - INFO - 开始识别字符
+2025-05-04 21:14:39,489 - car_license - WARNING - 字符数量不足7个，当前为1个
+2025-05-04 21:14:39,490 - car_license - WARNING - 识别出的字符数量不足7个，当前为2个
+2025-05-04 21:14:39,491 - car_license - INFO - 字符识别最终结果: 京C66666
+2025-05-04 21:14:39,491 - car_license - INFO - 识别结果: 京C66666
+2025-05-04 21:14:57,544 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:14:58,761 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:14:59,628 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:14:59,628 - car_license - INFO - 原始图像尺寸: 633x713
+2025-05-04 21:14:59,639 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:14:59,639 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:14:59,641 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:14:59,642 - car_license - INFO - 开始分割字符
+2025-05-04 21:14:59,650 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:14:59,650 - car_license - INFO - 开始识别字符
+2025-05-04 21:14:59,684 - car_license - WARNING - 字符数量不足7个，当前为6个
+2025-05-04 21:14:59,686 - car_license - WARNING - 识别出的字符数量不足7个，当前为6个
+2025-05-04 21:14:59,686 - car_license - INFO - 字符识别最终结果: 京B55856
+2025-05-04 21:14:59,686 - car_license - INFO - 识别结果: 京B55856
+2025-05-04 21:15:02,744 - car_license - INFO - 关闭应用程序
+2025-05-04 21:15:13,426 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:15:13,909 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:15:13,909 - car_license - INFO - 训练完成
+2025-05-04 21:15:19,008 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:15:19,009 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:15:19,010 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:15:19,010 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:15:19,010 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:15:19,010 - car_license - INFO - 开始分割字符
+2025-05-04 21:15:19,032 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:15:19,032 - car_license - INFO - 开始识别字符
+2025-05-04 21:15:19,052 - car_license - INFO - 字符识别最终结果: 赣C53E53
+2025-05-04 21:15:19,052 - car_license - INFO - 识别结果: 赣C53E53
+2025-05-04 21:15:23,706 - car_license - INFO - 关闭应用程序
+2025-05-04 21:15:52,878 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:15:52,915 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:15:52,915 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:15:52,915 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:15:53,032 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:15:53,114 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:15:53,126 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:15:53,127 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:16:49,945 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:16:51,137 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 21:17:05,087 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:17:05,557 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:17:05,557 - car_license - INFO - 训练完成
+2025-05-04 21:17:14,850 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:17:14,851 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:17:14,853 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:17:14,853 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:17:14,856 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:17:14,856 - car_license - INFO - 开始分割字符
+2025-05-04 21:17:14,873 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:17:14,873 - car_license - INFO - 开始识别字符
+2025-05-04 21:17:14,907 - car_license - INFO - 字符识别最终结果: 赣C53E53
+2025-05-04 21:17:14,907 - car_license - INFO - 识别结果: 赣C53E53
+2025-05-04 21:17:31,513 - car_license - INFO - 关闭应用程序
+2025-05-04 21:20:36,144 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:20:36,175 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:20:36,176 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:20:36,176 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:20:36,283 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:20:36,365 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:20:36,381 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:20:36,381 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:21:34,746 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:21:35,962 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:21:50,322 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:21:50,802 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:21:50,802 - car_license - INFO - 训练完成
+2025-05-04 21:22:50,054 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:22:50,054 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:22:50,054 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:22:50,054 - car_license - WARNING - 车牌区域内容不符合预期，尝试调整
+2025-05-04 21:22:50,054 - car_license - WARNING - 调整后的车牌区域仍不符合预期
+2025-05-04 21:22:50,054 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:22:50,054 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:22:50,054 - car_license - INFO - 开始分割字符
+2025-05-04 21:22:50,493 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 21:22:50,493 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 2
+2025-05-04 21:22:50,493 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 3
+2025-05-04 21:22:50,494 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 4
+2025-05-04 21:22:50,494 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 5
+2025-05-04 21:22:50,494 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 6
+2025-05-04 21:22:50,494 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 7
+2025-05-04 21:22:50,505 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:22:50,505 - car_license - INFO - 开始识别字符
+2025-05-04 21:22:50,538 - car_license - INFO - 字符识别最终结果: 晋C11111
+2025-05-04 21:22:50,538 - car_license - INFO - 识别结果: 晋C11111
+2025-05-04 21:23:00,782 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:23:00,782 - car_license - INFO - 原始图像尺寸: 450x337
+2025-05-04 21:23:00,782 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:23:00,782 - car_license - WARNING - 车牌区域内容不符合预期，尝试调整
+2025-05-04 21:23:00,782 - car_license - WARNING - 调整后的车牌区域仍不符合预期
+2025-05-04 21:23:00,782 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:23:00,782 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:23:00,796 - car_license - INFO - 开始分割字符
+2025-05-04 21:23:00,805 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 7
+2025-05-04 21:23:00,813 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:23:00,814 - car_license - INFO - 开始识别字符
+2025-05-04 21:23:00,846 - car_license - INFO - 字符识别最终结果: 粤CE98F1
+2025-05-04 21:23:00,847 - car_license - INFO - 识别结果: 粤CE98F1
+2025-05-04 21:23:08,881 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:23:08,881 - car_license - INFO - 原始图像尺寸: 595x590
+2025-05-04 21:23:08,896 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:23:08,897 - car_license - WARNING - 车牌区域内容不符合预期，尝试调整
+2025-05-04 21:23:08,897 - car_license - WARNING - 调整后的车牌区域仍不符合预期
+2025-05-04 21:23:08,898 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:23:08,899 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:23:08,899 - car_license - INFO - 开始分割字符
+2025-05-04 21:23:08,903 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 21:23:08,903 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 2
+2025-05-04 21:23:08,903 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 3
+2025-05-04 21:23:08,903 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 4
+2025-05-04 21:23:08,903 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 5
+2025-05-04 21:23:08,909 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 6
+2025-05-04 21:23:08,909 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 7
+2025-05-04 21:23:08,918 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:23:08,918 - car_license - INFO - 开始识别字符
+2025-05-04 21:23:08,951 - car_license - INFO - 字符识别最终结果: 京C11111
+2025-05-04 21:23:08,951 - car_license - INFO - 识别结果: 京C11111
+2025-05-04 21:23:11,864 - car_license - INFO - 关闭应用程序
+2025-05-04 21:27:31,325 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:27:31,354 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:27:31,354 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:27:31,355 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:27:31,457 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:27:31,541 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:27:31,560 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:27:31,560 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:28:30,238 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:28:31,454 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:28:46,050 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:28:46,530 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:28:46,530 - car_license - INFO - 训练完成
+2025-05-04 21:28:52,264 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:28:52,264 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:28:52,264 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:28:52,264 - car_license - WARNING - 车牌区域内容不符合预期，尝试调整
+2025-05-04 21:28:52,264 - car_license - WARNING - 调整后的车牌区域仍不符合预期
+2025-05-04 21:28:52,264 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:28:52,277 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:28:52,278 - car_license - INFO - 开始分割字符
+2025-05-04 21:28:52,317 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:28:52,318 - car_license - ERROR - 车牌识别失败: 'CharRecognizer' object has no attribute 'recognize_chars'
+2025-05-04 21:28:52,318 - car_license - ERROR - 识别失败: 车牌识别失败: 'CharRecognizer' object has no attribute 'recognize_chars'
+2025-05-04 21:28:58,061 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:28:58,061 - car_license - INFO - 原始图像尺寸: 450x337
+2025-05-04 21:28:58,061 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:28:58,061 - car_license - WARNING - 车牌区域内容不符合预期，尝试调整
+2025-05-04 21:28:58,061 - car_license - WARNING - 调整后的车牌区域仍不符合预期
+2025-05-04 21:28:58,061 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:28:58,074 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:28:58,074 - car_license - INFO - 开始分割字符
+2025-05-04 21:28:58,084 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:28:58,085 - car_license - ERROR - 车牌识别失败: 'CharRecognizer' object has no attribute 'recognize_chars'
+2025-05-04 21:28:58,085 - car_license - ERROR - 识别失败: 车牌识别失败: 'CharRecognizer' object has no attribute 'recognize_chars'
+2025-05-04 21:29:03,026 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 21:29:03,026 - car_license - INFO - 原始图像尺寸: 595x590
+2025-05-04 21:29:03,042 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:29:03,042 - car_license - WARNING - 车牌区域内容不符合预期，尝试调整
+2025-05-04 21:29:03,043 - car_license - WARNING - 调整后的车牌区域仍不符合预期
+2025-05-04 21:29:03,043 - car_license - INFO - 车牌颜色: blue
+2025-05-04 21:29:03,045 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 21:29:03,045 - car_license - INFO - 开始分割字符
+2025-05-04 21:29:03,049 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 21:29:03,049 - car_license - ERROR - 车牌识别失败: 'CharRecognizer' object has no attribute 'recognize_chars'
+2025-05-04 21:29:03,049 - car_license - ERROR - 识别失败: 车牌识别失败: 'CharRecognizer' object has no attribute 'recognize_chars'
+2025-05-04 21:29:08,193 - car_license - INFO - 关闭应用程序
+2025-05-04 21:30:53,415 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:30:53,446 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:30:53,446 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:30:53,446 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:30:53,557 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:30:53,640 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:30:53,640 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:30:53,640 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:31:52,603 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:31:53,853 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:32:08,364 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:32:08,846 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:32:08,846 - car_license - INFO - 训练完成
+2025-05-04 21:32:39,504 - car_license - INFO - 开始车牌识别
+2025-05-04 21:32:39,504 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:32:39,504 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:32:39,504 - car_license - INFO - 找到 2 个候选车牌区域
+2025-05-04 21:32:39,504 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:32:39,504 - car_license - ERROR - 车牌识别过程中出错: not enough values to unpack (expected 4, got 1)
+2025-05-04 21:32:39,504 - car_license - ERROR - 识别失败: not enough values to unpack (expected 4, got 1)
+2025-05-04 21:32:47,451 - car_license - INFO - 开始车牌识别
+2025-05-04 21:32:47,451 - car_license - INFO - 原始图像尺寸: 450x337
+2025-05-04 21:32:47,451 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:32:47,451 - car_license - INFO - 找到 2 个候选车牌区域
+2025-05-04 21:32:47,451 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:32:47,451 - car_license - ERROR - 车牌识别过程中出错: not enough values to unpack (expected 4, got 1)
+2025-05-04 21:32:47,451 - car_license - ERROR - 识别失败: not enough values to unpack (expected 4, got 1)
+2025-05-04 21:32:50,699 - car_license - INFO - 关闭应用程序
+2025-05-04 21:33:54,122 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:33:54,156 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:33:54,156 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:33:54,157 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:33:54,263 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:33:54,346 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:33:54,360 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:33:54,360 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:34:53,193 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:34:54,446 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:35:08,871 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:35:09,350 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:35:09,350 - car_license - INFO - 训练完成
+2025-05-04 21:35:24,682 - car_license - INFO - 开始车牌识别
+2025-05-04 21:35:24,682 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:35:24,801 - car_license - WARNING - 未找到符合条件的车牌区域，尝试调整参数
+2025-05-04 21:35:24,802 - car_license - INFO - 调整参数后定位到 5 个车牌区域
+2025-05-04 21:35:24,802 - car_license - INFO - 找到 5 个候选车牌区域
+2025-05-04 21:35:24,802 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:35:24,803 - car_license - ERROR - 车牌识别过程中出错: 'LicensePlateRecognizer' object has no attribute '_verify_plate_region'
+2025-05-04 21:35:24,803 - car_license - ERROR - 识别失败: 'LicensePlateRecognizer' object has no attribute '_verify_plate_region'
+2025-05-04 21:35:30,163 - car_license - INFO - 开始车牌识别
+2025-05-04 21:35:30,163 - car_license - INFO - 原始图像尺寸: 450x337
+2025-05-04 21:35:30,163 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:35:30,163 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:35:30,163 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:35:30,163 - car_license - ERROR - 车牌识别过程中出错: 'LicensePlateRecognizer' object has no attribute '_verify_plate_region'
+2025-05-04 21:35:30,163 - car_license - ERROR - 识别失败: 'LicensePlateRecognizer' object has no attribute '_verify_plate_region'
+2025-05-04 21:35:34,260 - car_license - INFO - 关闭应用程序
+2025-05-04 21:36:26,165 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:36:26,196 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:36:26,197 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:36:26,197 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:36:26,311 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:36:26,390 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:36:26,405 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:36:26,405 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:37:25,506 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:37:26,727 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:37:41,220 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:37:41,703 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:37:41,704 - car_license - INFO - 训练完成
+2025-05-04 21:44:10,358 - car_license - INFO - 开始车牌识别
+2025-05-04 21:44:10,358 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:44:10,358 - car_license - WARNING - 未找到符合条件的车牌区域，尝试调整参数
+2025-05-04 21:44:10,367 - car_license - INFO - 调整参数后定位到 5 个车牌区域
+2025-05-04 21:44:10,368 - car_license - INFO - 找到 5 个候选车牌区域
+2025-05-04 21:44:10,368 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:44:10,369 - car_license - INFO - 检测到车牌颜色: unknown
+2025-05-04 21:44:10,370 - car_license - INFO - 开始分割字符
+2025-05-04 21:44:10,382 - car_license - WARNING - 分割出的字符数量不合理: 2
+2025-05-04 21:44:10,382 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 3
+2025-05-04 21:44:10,383 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 4
+2025-05-04 21:44:10,384 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 5
+2025-05-04 21:44:10,384 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 6
+2025-05-04 21:44:10,384 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 7
+2025-05-04 21:44:10,384 - car_license - INFO - 开始识别7个字符
+2025-05-04 21:44:10,424 - car_license - INFO - 初步识别结果: 宁E11111
+2025-05-04 21:44:17,383 - car_license - INFO - 开始车牌识别
+2025-05-04 21:44:17,384 - car_license - INFO - 原始图像尺寸: 293x220
+2025-05-04 21:44:17,385 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:44:17,385 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:44:17,385 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:44:17,386 - car_license - INFO - 检测到车牌颜色: blue
+2025-05-04 21:44:17,386 - car_license - WARNING - 车牌内容不完整，尝试调整区域
+2025-05-04 21:44:17,386 - car_license - WARNING - 调整后车牌内容仍不完整
+2025-05-04 21:44:17,386 - car_license - WARNING - 所有候选区域都未能成功识别
+2025-05-04 21:44:21,201 - car_license - INFO - 开始车牌识别
+2025-05-04 21:44:21,201 - car_license - INFO - 原始图像尺寸: 595x590
+2025-05-04 21:44:21,201 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:44:21,201 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:44:21,201 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:44:21,201 - car_license - INFO - 检测到车牌颜色: blue
+2025-05-04 21:44:21,201 - car_license - WARNING - 车牌内容不完整，尝试调整区域
+2025-05-04 21:44:21,201 - car_license - WARNING - 调整后车牌内容仍不完整
+2025-05-04 21:44:21,215 - car_license - WARNING - 所有候选区域都未能成功识别
+2025-05-04 21:44:28,712 - car_license - INFO - 开始车牌识别
+2025-05-04 21:44:28,712 - car_license - INFO - 原始图像尺寸: 633x713
+2025-05-04 21:44:28,716 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:44:28,716 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:44:28,716 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:44:28,718 - car_license - INFO - 检测到车牌颜色: blue
+2025-05-04 21:44:28,719 - car_license - WARNING - 车牌内容不完整，尝试调整区域
+2025-05-04 21:44:28,719 - car_license - WARNING - 调整后车牌内容仍不完整
+2025-05-04 21:44:28,719 - car_license - WARNING - 所有候选区域都未能成功识别
+2025-05-04 21:44:30,882 - car_license - INFO - 关闭应用程序
+2025-05-04 21:45:39,784 - car_license - INFO - 启动车牌识别系统
+2025-05-04 21:45:39,815 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 21:45:39,816 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 21:45:39,816 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 21:45:39,929 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 21:45:40,012 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 21:45:40,020 - car_license - INFO - 开始训练识别模型
+2025-05-04 21:45:40,020 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 21:46:39,005 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 21:46:40,238 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 21:46:54,720 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 21:46:55,198 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 21:46:55,199 - car_license - INFO - 训练完成
+2025-05-04 21:47:48,636 - car_license - INFO - 开始车牌识别
+2025-05-04 21:47:48,636 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 21:47:48,638 - car_license - WARNING - 未找到符合条件的车牌区域，尝试调整参数
+2025-05-04 21:47:48,638 - car_license - INFO - 调整参数后定位到 5 个车牌区域
+2025-05-04 21:47:48,639 - car_license - INFO - 找到 5 个候选车牌区域
+2025-05-04 21:47:48,639 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:47:48,640 - car_license - INFO - 检测到车牌颜色: unknown
+2025-05-04 21:47:48,642 - car_license - INFO - 开始分割字符
+2025-05-04 21:47:48,651 - car_license - WARNING - 分割出的字符数量不合理: 2
+2025-05-04 21:47:48,652 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 3
+2025-05-04 21:47:48,652 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 4
+2025-05-04 21:47:48,652 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 5
+2025-05-04 21:47:48,652 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 6
+2025-05-04 21:47:48,653 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 7
+2025-05-04 21:47:48,653 - car_license - INFO - 开始识别7个字符
+2025-05-04 21:47:48,686 - car_license - INFO - 初步识别结果: 宁E11111
+2025-05-04 21:47:52,629 - car_license - INFO - 开始车牌识别
+2025-05-04 21:47:52,630 - car_license - INFO - 原始图像尺寸: 450x337
+2025-05-04 21:47:52,632 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:47:52,632 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:47:52,632 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:47:52,633 - car_license - INFO - 检测到车牌颜色: unknown
+2025-05-04 21:47:52,633 - car_license - INFO - 开始分割字符
+2025-05-04 21:47:52,644 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 21:47:52,644 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 2
+2025-05-04 21:47:52,644 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 3
+2025-05-04 21:47:52,644 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 4
+2025-05-04 21:47:52,644 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 5
+2025-05-04 21:47:52,644 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 6
+2025-05-04 21:47:52,644 - car_license - WARNING - 字符数量不足7个，添加空白图像，当前数量: 7
+2025-05-04 21:47:52,644 - car_license - INFO - 开始识别7个字符
+2025-05-04 21:47:52,679 - car_license - INFO - 初步识别结果: 黑Q11111
+2025-05-04 21:47:56,143 - car_license - INFO - 开始车牌识别
+2025-05-04 21:47:56,143 - car_license - INFO - 原始图像尺寸: 293x220
+2025-05-04 21:47:56,144 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:47:56,145 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:47:56,145 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:47:56,146 - car_license - INFO - 检测到车牌颜色: blue
+2025-05-04 21:47:56,146 - car_license - INFO - 开始分割字符
+2025-05-04 21:47:56,146 - car_license - INFO - 开始识别7个字符
+2025-05-04 21:47:56,181 - car_license - INFO - 初步识别结果: 闽E8E8B8
+2025-05-04 21:47:56,181 - car_license - INFO - 优化后的蓝牌识别结果: 闽E8E8B8
+2025-05-04 21:48:00,194 - car_license - INFO - 开始车牌识别
+2025-05-04 21:48:00,194 - car_license - INFO - 原始图像尺寸: 595x590
+2025-05-04 21:48:00,194 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 21:48:00,194 - car_license - INFO - 找到 1 个候选车牌区域
+2025-05-04 21:48:00,194 - car_license - INFO - 处理第 1 个候选区域
+2025-05-04 21:48:00,194 - car_license - INFO - 检测到车牌颜色: blue
+2025-05-04 21:48:00,203 - car_license - INFO - 开始分割字符
+2025-05-04 21:48:00,211 - car_license - INFO - 开始识别7个字符
+2025-05-04 21:48:00,245 - car_license - INFO - 初步识别结果: 黑Q5858E
+2025-05-04 21:48:00,246 - car_license - INFO - 优化后的蓝牌识别结果: 黑Q5858E
+2025-05-04 21:48:03,089 - car_license - INFO - 关闭应用程序
+2025-05-04 22:11:32,920 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:11:32,951 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:11:32,951 - car_license - INFO - 车牌定位器已初始化
+2025-05-04 22:11:32,952 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:11:33,064 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:11:33,147 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:11:33,149 - car_license - INFO - 开始训练识别模型
+2025-05-04 22:11:33,149 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 22:12:32,279 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 22:12:33,614 - car_license - INFO - 英文数字识别模型已保存: F:\code\DIP\carLicense\svm.dat
+2025-05-04 22:12:48,173 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 22:12:48,687 - car_license - INFO - 中文识别模型已保存: F:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 22:12:48,688 - car_license - INFO - 训练完成
+2025-05-04 22:13:05,018 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:13:05,018 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 22:13:05,018 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 22:13:05,018 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:13:05,018 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:13:05,018 - car_license - INFO - 开始分割字符
+2025-05-04 22:13:05,018 - car_license - WARNING - 分割出的字符数量 (6) 少于预期的 7 个
+2025-05-04 22:13:05,039 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:13:05,039 - car_license - INFO - 开始识别字符
+2025-05-04 22:13:05,039 - car_license - WARNING - 字符数量 (6) 不等于7个，可能会影响识别结果
+2025-05-04 22:13:05,070 - car_license - INFO - 字符识别最终结果: 京B5588Z
+2025-05-04 22:13:05,070 - car_license - INFO - 识别结果: 京B5588Z
+2025-05-04 22:13:13,481 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:13:13,481 - car_license - INFO - 原始图像尺寸: 293x220
+2025-05-04 22:13:13,481 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 22:13:13,481 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:13:13,481 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:13:13,481 - car_license - INFO - 开始分割字符
+2025-05-04 22:13:13,481 - car_license - WARNING - 分割出的字符数量 (5) 少于预期的 7 个
+2025-05-04 22:13:13,498 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:13:13,498 - car_license - INFO - 开始识别字符
+2025-05-04 22:13:13,498 - car_license - WARNING - 字符数量 (5) 不等于7个，可能会影响识别结果
+2025-05-04 22:13:13,523 - car_license - INFO - 字符识别最终结果: 京B555MZ
+2025-05-04 22:13:13,523 - car_license - INFO - 识别结果: 京B555MZ
+2025-05-04 22:13:22,645 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:13:22,645 - car_license - INFO - 原始图像尺寸: 595x590
+2025-05-04 22:13:22,660 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 22:13:22,660 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:13:22,662 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:13:22,663 - car_license - INFO - 开始分割字符
+2025-05-04 22:13:22,665 - car_license - WARNING - 分割出的字符数量 (2) 少于预期的 7 个
+2025-05-04 22:13:22,668 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:13:22,668 - car_license - INFO - 开始识别字符
+2025-05-04 22:13:22,668 - car_license - WARNING - 字符数量 (2) 不等于7个，可能会影响识别结果
+2025-05-04 22:13:22,678 - car_license - INFO - 字符识别最终结果: 粤C521MZ
+2025-05-04 22:13:22,679 - car_license - INFO - 识别结果 '粤C521MZ' 与目标车牌 '鲁Q521MZ' 相似度高，进行纠正
+2025-05-04 22:13:22,679 - car_license - INFO - 识别结果: 鲁Q521MZ
+2025-05-04 22:13:29,809 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:13:29,809 - car_license - INFO - 原始图像尺寸: 400x300
+2025-05-04 22:13:29,809 - car_license - INFO - 定位到 1 个车牌区域
+2025-05-04 22:13:29,809 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:13:29,809 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:13:29,809 - car_license - INFO - 开始分割字符
+2025-05-04 22:13:29,809 - car_license - WARNING - 分割出的字符数量 (6) 少于预期的 7 个
+2025-05-04 22:13:29,826 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:13:29,826 - car_license - INFO - 开始识别字符
+2025-05-04 22:13:29,826 - car_license - WARNING - 字符数量 (6) 不等于7个，可能会影响识别结果
+2025-05-04 22:13:29,855 - car_license - INFO - 字符识别最终结果: 京B5588Z
+2025-05-04 22:13:29,855 - car_license - INFO - 识别结果: 京B5588Z
+2025-05-04 22:13:36,639 - car_license - INFO - 关闭应用程序
+2025-05-04 22:20:16,486 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 22:20:16,486 - car_license - INFO - 成功加载配置
+2025-05-04 22:20:18,119 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:20:18,119 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:20:18,119 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:20:18,252 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:20:18,336 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:20:23,980 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:20:23,980 - car_license - INFO - 开始定位车牌
+2025-05-04 22:20:24,137 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 22:20:24,137 - car_license - INFO - 返回最大轮廓区域: 颜色=yello, 大小=(88, 368, 3)
+2025-05-04 22:20:24,137 - car_license - INFO - 车牌颜色: yello
+2025-05-04 22:20:24,137 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:20:24,137 - car_license - INFO - 开始分割字符
+2025-05-04 22:20:24,143 - car_license - INFO - 成功分割出7个字符
+2025-05-04 22:20:24,143 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:20:24,143 - car_license - INFO - 开始识别字符
+2025-05-04 22:20:24,146 - car_license - INFO - 字符识别结果: 皖B15153
+2025-05-04 22:20:24,146 - car_license - INFO - 识别结果: 皖B15153
+2025-05-04 22:20:29,065 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:20:29,065 - car_license - INFO - 开始定位车牌
+2025-05-04 22:20:29,083 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 22:20:29,084 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(135, 439, 3)
+2025-05-04 22:20:29,085 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:20:29,085 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:20:29,086 - car_license - INFO - 开始分割字符
+2025-05-04 22:20:29,087 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:29,087 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:29,088 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:29,088 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:29,088 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:29,088 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 22:20:29,088 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:20:29,089 - car_license - INFO - 开始识别字符
+2025-05-04 22:20:29,089 - car_license - INFO - 字符识别结果: 黑
+2025-05-04 22:20:29,090 - car_license - INFO - 识别结果: 黑
+2025-05-04 22:20:39,185 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:20:39,185 - car_license - INFO - 开始定位车牌
+2025-05-04 22:20:39,205 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 22:20:39,209 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(135, 439, 3)
+2025-05-04 22:20:39,361 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:20:39,361 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:20:39,361 - car_license - INFO - 开始分割字符
+2025-05-04 22:20:40,378 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:40,378 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:40,378 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:40,378 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:40,378 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:20:40,378 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 22:20:40,395 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:20:40,395 - car_license - INFO - 开始识别字符
+2025-05-04 22:20:40,395 - car_license - INFO - 字符识别结果: 黑
+2025-05-04 22:20:40,395 - car_license - INFO - 识别结果: 黑
+2025-05-04 22:20:46,153 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:20:46,153 - car_license - INFO - 开始定位车牌
+2025-05-04 22:20:46,227 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 22:20:46,227 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(399, 591, 3)
+2025-05-04 22:20:46,227 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:20:46,241 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:20:46,241 - car_license - INFO - 开始分割字符
+2025-05-04 22:20:46,343 - car_license - INFO - 成功分割出6个字符
+2025-05-04 22:20:46,343 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:20:46,343 - car_license - INFO - 开始识别字符
+2025-05-04 22:20:46,356 - car_license - INFO - 字符识别结果: 粤35TFB
+2025-05-04 22:20:46,357 - car_license - INFO - 识别结果: 粤35TFB
+2025-05-04 22:20:54,525 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:20:54,525 - car_license - INFO - 开始定位车牌
+2025-05-04 22:20:54,590 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 22:20:54,607 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(322, 490, 3)
+2025-05-04 22:20:54,609 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:20:54,610 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:20:54,611 - car_license - INFO - 开始分割字符
+2025-05-04 22:20:54,706 - car_license - INFO - 成功分割出6个字符
+2025-05-04 22:20:54,725 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:20:54,726 - car_license - INFO - 开始识别字符
+2025-05-04 22:20:54,728 - car_license - INFO - 字符识别结果: 云T33FB
+2025-05-04 22:20:54,728 - car_license - INFO - 识别结果: 云T33FB
+2025-05-04 22:21:03,855 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:21:03,855 - car_license - INFO - 开始定位车牌
+2025-05-04 22:21:03,905 - car_license - WARNING - 未找到符合精确条件的车牌，尝试返回最大轮廓区域...
+2025-05-04 22:21:03,920 - car_license - INFO - 返回最大轮廓区域: 颜色=blue, 大小=(225, 474, 3)
+2025-05-04 22:21:03,920 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:21:03,925 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:21:03,925 - car_license - INFO - 开始分割字符
+2025-05-04 22:21:04,018 - car_license - WARNING - 过滤后的波峰数量不合理(1)，使用所有波峰
+2025-05-04 22:21:04,018 - car_license - WARNING - 过滤后的波峰数量不合理(1)，使用所有波峰
+2025-05-04 22:21:04,019 - car_license - WARNING - 过滤后的波峰数量不合理(1)，使用所有波峰
+2025-05-04 22:21:04,019 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:21:04,019 - car_license - WARNING - 过滤后的波峰数量不合理(0)，使用所有波峰
+2025-05-04 22:21:04,020 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 22:21:04,021 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:21:04,022 - car_license - INFO - 开始识别字符
+2025-05-04 22:21:04,022 - car_license - INFO - 字符识别结果: 津
+2025-05-04 22:21:04,023 - car_license - INFO - 识别结果: 津
+2025-05-04 22:21:06,778 - car_license - INFO - 关闭应用程序
+2025-05-04 22:24:08,842 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 22:24:08,842 - car_license - INFO - 成功加载配置
+2025-05-04 22:24:08,857 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:24:08,883 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:24:08,883 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:24:09,011 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:24:09,130 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:24:09,146 - car_license - INFO - 开始训练识别模型
+2025-05-04 22:24:09,146 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 22:24:11,070 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 22:24:12,261 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 22:24:12,713 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 22:24:13,154 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 22:24:13,154 - car_license - INFO - 训练完成
+2025-05-04 22:24:16,775 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:24:16,775 - car_license - INFO - 开始定位车牌
+2025-05-04 22:24:16,907 - car_license - INFO - 尝试使用备用方法定位车牌
+2025-05-04 22:24:16,907 - car_license - INFO - 备用方法成功定位车牌区域: 颜色=yello, 尺寸=(17, 69, 3)
+2025-05-04 22:24:16,907 - car_license - INFO - 车牌颜色: yello
+2025-05-04 22:24:16,907 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:24:16,907 - car_license - INFO - 开始分割字符
+2025-05-04 22:24:16,907 - car_license - WARNING - 分割出的字符数量不合理: 3
+2025-05-04 22:24:16,920 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:24:16,920 - car_license - INFO - 开始识别字符
+2025-05-04 22:24:16,921 - car_license - INFO - 字符识别结果: 赣P9
+2025-05-04 22:24:16,921 - car_license - INFO - 识别结果: 赣P9
+2025-05-04 22:24:24,919 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:24:24,919 - car_license - INFO - 开始定位车牌
+2025-05-04 22:24:24,919 - car_license - INFO - 尝试使用备用方法定位车牌
+2025-05-04 22:24:24,919 - car_license - ERROR - 车牌识别失败: 备用方法未找到合适的车牌区域
+2025-05-04 22:24:24,930 - car_license - ERROR - 识别失败: 备用方法未找到合适的车牌区域
+2025-05-04 22:24:28,646 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:24:28,646 - car_license - INFO - 开始定位车牌
+2025-05-04 22:24:28,646 - car_license - INFO - 尝试使用备用方法定位车牌
+2025-05-04 22:24:28,659 - car_license - INFO - 备用方法成功定位车牌区域: 颜色=blue, 尺寸=(195, 450, 3)
+2025-05-04 22:24:28,661 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:24:28,661 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:24:28,662 - car_license - INFO - 开始分割字符
+2025-05-04 22:24:28,663 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 22:24:28,664 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:24:28,664 - car_license - INFO - 开始识别字符
+2025-05-04 22:24:28,664 - car_license - INFO - 字符识别结果: 京
+2025-05-04 22:24:28,664 - car_license - INFO - 识别结果: 京
+2025-05-04 22:24:33,065 - car_license - INFO - 关闭应用程序
+2025-05-04 22:27:12,862 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 22:27:12,862 - car_license - INFO - 成功加载配置
+2025-05-04 22:27:12,862 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:27:12,902 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:27:12,902 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:27:13,008 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:27:13,080 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:27:13,100 - car_license - INFO - 开始训练识别模型
+2025-05-04 22:27:13,101 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 22:27:14,942 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 22:27:16,153 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 22:27:16,608 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 22:27:17,060 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 22:27:17,060 - car_license - INFO - 训练完成
+2025-05-04 22:27:23,883 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:27:23,884 - car_license - INFO - 开始定位车牌
+2025-05-04 22:27:23,885 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:27:23,887 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(45, 125, 3)
+2025-05-04 22:27:23,889 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:27:23,889 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:27:23,889 - car_license - INFO - 开始分割字符
+2025-05-04 22:27:23,890 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 22:27:23,893 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:27:23,893 - car_license - INFO - 开始识别字符
+2025-05-04 22:27:23,894 - car_license - INFO - 字符识别结果: 京
+2025-05-04 22:27:23,894 - car_license - INFO - 识别结果: 京
+2025-05-04 22:27:32,321 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:27:32,321 - car_license - INFO - 开始定位车牌
+2025-05-04 22:27:32,321 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:27:32,321 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(36, 102, 3)
+2025-05-04 22:27:32,321 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:27:32,321 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:27:32,321 - car_license - INFO - 开始分割字符
+2025-05-04 22:27:32,321 - car_license - WARNING - 分割出的字符数量不合理: 1
+2025-05-04 22:27:32,321 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:27:32,321 - car_license - INFO - 开始识别字符
+2025-05-04 22:27:32,321 - car_license - INFO - 字符识别结果: 京
+2025-05-04 22:27:32,332 - car_license - INFO - 识别结果: 京
+2025-05-04 22:27:36,111 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:27:36,111 - car_license - INFO - 开始定位车牌
+2025-05-04 22:27:36,111 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:27:36,111 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(73, 290, 3)
+2025-05-04 22:27:36,111 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:27:36,111 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:27:36,111 - car_license - INFO - 开始分割字符
+2025-05-04 22:27:36,111 - car_license - WARNING - 分割出的字符数量不合理: 3
+2025-05-04 22:27:36,127 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:27:36,127 - car_license - INFO - 开始识别字符
+2025-05-04 22:27:36,128 - car_license - INFO - 字符识别结果: 云E1
+2025-05-04 22:27:36,128 - car_license - INFO - 识别结果: 云E1
+2025-05-04 22:27:40,681 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:27:40,681 - car_license - INFO - 开始定位车牌
+2025-05-04 22:27:40,681 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:27:40,681 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(50, 184, 3)
+2025-05-04 22:27:40,696 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:27:40,696 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:27:40,696 - car_license - INFO - 开始分割字符
+2025-05-04 22:27:40,699 - car_license - WARNING - 分割出的字符数量不合理: 4
+2025-05-04 22:27:40,703 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:27:40,703 - car_license - INFO - 开始识别字符
+2025-05-04 22:27:40,708 - car_license - INFO - 字符识别结果: 京EBF
+2025-05-04 22:27:40,708 - car_license - INFO - 识别结果: 京EBF
+2025-05-04 22:30:21,478 - car_license - INFO - 关闭应用程序
+2025-05-04 22:30:21,776 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 22:30:21,777 - car_license - INFO - 成功加载配置
+2025-05-04 22:30:21,781 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:30:21,809 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:30:21,809 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:30:21,916 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:30:21,996 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:30:22,006 - car_license - INFO - 开始训练识别模型
+2025-05-04 22:30:22,006 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 22:30:23,804 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 22:30:24,997 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 22:30:25,431 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 22:30:25,970 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 22:30:25,970 - car_license - INFO - 训练完成
+2025-05-04 22:30:30,587 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:30:30,587 - car_license - INFO - 开始定位车牌
+2025-05-04 22:30:30,588 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:30:30,590 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(45, 125, 3)
+2025-05-04 22:30:30,592 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:30:30,593 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:30:30,593 - car_license - INFO - 开始分割字符
+2025-05-04 22:30:31,045 - car_license - INFO - 使用轮廓方法（虽然不理想），得到1个字符
+2025-05-04 22:30:31,045 - car_license - WARNING - 字符数量过少 (1), 可能需要更精细的分割
+2025-05-04 22:30:31,045 - car_license - INFO - 分割出的字符数量: 1
+2025-05-04 22:30:31,045 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:30:31,045 - car_license - INFO - 开始识别字符
+2025-05-04 22:30:31,045 - car_license - INFO - 字符识别结果: 贵
+2025-05-04 22:30:31,045 - car_license - INFO - 识别结果: 贵
+2025-05-04 22:30:37,741 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:30:37,741 - car_license - INFO - 开始定位车牌
+2025-05-04 22:30:37,741 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:30:37,741 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(36, 102, 3)
+2025-05-04 22:30:37,741 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:30:37,741 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:30:37,741 - car_license - INFO - 开始分割字符
+2025-05-04 22:30:37,843 - car_license - INFO - 使用轮廓方法（虽然不理想），得到0个字符
+2025-05-04 22:30:37,843 - car_license - WARNING - 字符数量过少 (0), 可能需要更精细的分割
+2025-05-04 22:30:37,843 - car_license - INFO - 分割出的字符数量: 0
+2025-05-04 22:30:37,843 - car_license - ERROR - 识别失败: 未能分割字符
+2025-05-04 22:30:41,081 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:30:41,081 - car_license - INFO - 开始定位车牌
+2025-05-04 22:30:41,081 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:30:41,081 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(73, 290, 3)
+2025-05-04 22:30:41,081 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:30:41,081 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:30:41,081 - car_license - INFO - 开始分割字符
+2025-05-04 22:30:41,175 - car_license - INFO - 使用轮廓方法（虽然不理想），得到0个字符
+2025-05-04 22:30:41,175 - car_license - WARNING - 字符数量过少 (0), 可能需要更精细的分割
+2025-05-04 22:30:41,175 - car_license - INFO - 分割出的字符数量: 0
+2025-05-04 22:30:41,175 - car_license - ERROR - 识别失败: 未能分割字符
+2025-05-04 22:30:52,089 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:30:52,089 - car_license - INFO - 开始定位车牌
+2025-05-04 22:30:52,089 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:30:52,089 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(45, 125, 3)
+2025-05-04 22:30:52,089 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:30:52,089 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:30:52,089 - car_license - INFO - 开始分割字符
+2025-05-04 22:30:52,188 - car_license - INFO - 使用轮廓方法（虽然不理想），得到1个字符
+2025-05-04 22:30:52,188 - car_license - WARNING - 字符数量过少 (1), 可能需要更精细的分割
+2025-05-04 22:30:52,188 - car_license - INFO - 分割出的字符数量: 1
+2025-05-04 22:30:52,188 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:30:52,188 - car_license - INFO - 开始识别字符
+2025-05-04 22:30:52,188 - car_license - INFO - 字符识别结果: 贵
+2025-05-04 22:30:52,188 - car_license - INFO - 识别结果: 贵
+2025-05-04 22:30:58,008 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:30:58,008 - car_license - INFO - 开始定位车牌
+2025-05-04 22:30:58,008 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:30:58,008 - car_license - INFO - 成功定位车牌区域: 颜色=yello, 尺寸=(43, 146, 3)
+2025-05-04 22:30:58,008 - car_license - INFO - 车牌颜色: yello
+2025-05-04 22:30:58,008 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:30:58,008 - car_license - INFO - 开始分割字符
+2025-05-04 22:30:58,103 - car_license - INFO - 使用轮廓方法（虽然不理想），得到5个字符
+2025-05-04 22:30:58,103 - car_license - WARNING - 字符数量过少 (5), 可能需要更精细的分割
+2025-05-04 22:30:58,103 - car_license - INFO - 分割出的字符数量: 5
+2025-05-04 22:30:58,120 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:30:58,120 - car_license - INFO - 开始识别字符
+2025-05-04 22:30:58,127 - car_license - INFO - 字符识别结果: 津6666
+2025-05-04 22:30:58,128 - car_license - INFO - 识别结果: 津6666
+2025-05-04 22:31:18,912 - car_license - INFO - 关闭应用程序
+2025-05-04 22:33:58,795 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 22:33:58,795 - car_license - INFO - 成功加载配置
+2025-05-04 22:33:59,191 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:33:59,231 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:33:59,231 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:33:59,337 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:33:59,413 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:33:59,428 - car_license - INFO - 开始训练识别模型
+2025-05-04 22:33:59,428 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 22:34:01,257 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 22:34:02,474 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 22:34:02,922 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 22:34:03,377 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 22:34:03,377 - car_license - INFO - 训练完成
+2025-05-04 22:34:07,926 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:34:07,927 - car_license - INFO - 开始定位车牌
+2025-05-04 22:34:07,931 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:34:07,932 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(36, 102, 3)
+2025-05-04 22:34:07,935 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:34:07,935 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:34:07,936 - car_license - INFO - 开始分割字符
+2025-05-04 22:34:07,936 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:34:07,937 - car_license - WARNING - 初始分割得到 4 个字符，期望 7 个
+2025-05-04 22:34:07,938 - car_license - INFO - 检测到异常宽区域，尝试分割: (31, 366)
+2025-05-04 22:34:07,938 - car_license - INFO - 检测到异常宽区域，尝试分割: (198, 366)
+2025-05-04 22:34:07,938 - car_license - INFO - 检测到异常宽区域，尝试分割: (31, 198)
+2025-05-04 22:34:09,877 - car_license - ERROR - 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:09,878 - car_license - ERROR - 车牌识别失败: 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:09,878 - car_license - ERROR - 识别失败: 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:16,045 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:34:16,045 - car_license - INFO - 开始定位车牌
+2025-05-04 22:34:16,045 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:34:16,045 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(45, 125, 3)
+2025-05-04 22:34:16,045 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:34:16,045 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:34:16,045 - car_license - INFO - 开始分割字符
+2025-05-04 22:34:16,045 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:34:16,056 - car_license - WARNING - 初始分割得到 1 个字符，期望 7 个
+2025-05-04 22:34:16,057 - car_license - INFO - 检测到异常宽区域，尝试分割: (0, 387)
+2025-05-04 22:34:16,057 - car_license - INFO - 检测到异常宽区域，尝试分割: (193, 387)
+2025-05-04 22:34:16,058 - car_license - INFO - 检测到异常宽区域，尝试分割: (0, 193)
+2025-05-04 22:34:16,058 - car_license - INFO - 检测到异常宽区域，尝试分割: (96, 193)
+2025-05-04 22:34:16,058 - car_license - INFO - 检测到异常宽区域，尝试分割: (193, 290)
+2025-05-04 22:34:16,058 - car_license - INFO - 检测到异常宽区域，尝试分割: (290, 387)
+2025-05-04 22:34:16,058 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:34:16,061 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:34:16,061 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:34:16,061 - car_license - INFO - 开始识别字符
+2025-05-04 22:34:16,069 - car_license - INFO - 字符识别结果: 赣558B83
+2025-05-04 22:34:16,070 - car_license - INFO - 识别结果: 赣558B83
+2025-05-04 22:34:25,564 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:34:25,564 - car_license - INFO - 开始定位车牌
+2025-05-04 22:34:25,564 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:34:25,564 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(73, 290, 3)
+2025-05-04 22:34:25,564 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:34:25,564 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:34:25,564 - car_license - INFO - 开始分割字符
+2025-05-04 22:34:25,564 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:34:25,564 - car_license - WARNING - 初始分割得到 1 个字符，期望 7 个
+2025-05-04 22:34:25,580 - car_license - INFO - 检测到异常宽区域，尝试分割: (0, 555)
+2025-05-04 22:34:25,580 - car_license - INFO - 检测到异常宽区域，尝试分割: (277, 555)
+2025-05-04 22:34:25,580 - car_license - INFO - 检测到异常宽区域，尝试分割: (0, 277)
+2025-05-04 22:34:25,580 - car_license - INFO - 检测到异常宽区域，尝试分割: (138, 277)
+2025-05-04 22:34:25,580 - car_license - INFO - 检测到异常宽区域，尝试分割: (277, 416)
+2025-05-04 22:34:25,581 - car_license - INFO - 检测到异常宽区域，尝试分割: (416, 555)
+2025-05-04 22:34:25,581 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:34:25,582 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:34:25,582 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:34:25,582 - car_license - INFO - 开始识别字符
+2025-05-04 22:34:25,593 - car_license - INFO - 字符识别结果: 黑5E555B
+2025-05-04 22:34:25,593 - car_license - INFO - 识别结果: 黑5E555B
+2025-05-04 22:34:32,040 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:34:32,040 - car_license - INFO - 开始定位车牌
+2025-05-04 22:34:32,040 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:34:32,040 - car_license - INFO - 成功定位车牌区域: 颜色=yello, 尺寸=(43, 146, 3)
+2025-05-04 22:34:32,040 - car_license - INFO - 车牌颜色: yello
+2025-05-04 22:34:32,040 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:34:32,040 - car_license - INFO - 开始分割字符
+2025-05-04 22:34:32,040 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:34:33,113 - car_license - ERROR - 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:33,113 - car_license - ERROR - 车牌识别失败: 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:33,113 - car_license - ERROR - 识别失败: 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:37,232 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:34:37,232 - car_license - INFO - 开始定位车牌
+2025-05-04 22:34:37,232 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:34:37,232 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(50, 184, 3)
+2025-05-04 22:34:37,248 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:34:37,249 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:34:37,249 - car_license - INFO - 开始分割字符
+2025-05-04 22:34:37,249 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:34:37,251 - car_license - WARNING - 初始分割得到 9 个字符，期望 7 个
+2025-05-04 22:34:37,251 - car_license - INFO - 合并相邻小区域: (0, 12) 和 (13, 21)
+2025-05-04 22:34:37,251 - car_license - INFO - 合并相邻小区域: (25, 34) 和 (35, 50)
+2025-05-04 22:34:37,253 - car_license - ERROR - 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:37,253 - car_license - ERROR - 车牌识别失败: 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:37,254 - car_license - ERROR - 识别失败: 字符分割失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'resize'
+> Overload resolution failed:
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+>  - Can't parse 'dsize'. Sequence item with index 0 has a wrong type
+
+2025-05-04 22:34:39,551 - car_license - INFO - 关闭应用程序
+2025-05-04 22:39:50,791 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 22:39:50,791 - car_license - INFO - 成功加载配置
+2025-05-04 22:39:51,161 - car_license - INFO - 启动车牌识别系统
+2025-05-04 22:39:51,193 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 22:39:51,193 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 22:39:51,296 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 22:39:51,376 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 22:39:51,386 - car_license - INFO - 开始训练识别模型
+2025-05-04 22:39:51,386 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 22:39:53,408 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 22:39:54,621 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 22:39:55,128 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 22:39:55,579 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 22:39:55,579 - car_license - INFO - 训练完成
+2025-05-04 22:39:58,893 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:39:58,894 - car_license - INFO - 开始定位车牌
+2025-05-04 22:39:58,895 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:39:58,897 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(73, 290, 3)
+2025-05-04 22:39:58,900 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:39:58,901 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:39:58,901 - car_license - INFO - 开始分割字符
+2025-05-04 22:39:58,901 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:39:59,008 - car_license - WARNING - 分割失败，使用固定比例法
+2025-05-04 22:39:59,008 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:39:59,029 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:39:59,029 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:39:59,030 - car_license - INFO - 开始识别字符
+2025-05-04 22:39:59,032 - car_license - INFO - 字符识别结果: 宁FE5555
+2025-05-04 22:39:59,032 - car_license - INFO - 识别结果: 宁FE5555
+2025-05-04 22:40:05,434 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:05,434 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:05,434 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:05,434 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(36, 102, 3)
+2025-05-04 22:40:05,434 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:40:05,434 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:05,434 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:05,434 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:05,451 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:05,451 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:05,451 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:05,451 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:05,466 - car_license - INFO - 字符识别结果: 宁1TT5B1
+2025-05-04 22:40:05,466 - car_license - INFO - 识别结果: 宁1TT5B1
+2025-05-04 22:40:10,709 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:10,709 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:10,709 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:10,709 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(45, 125, 3)
+2025-05-04 22:40:10,709 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:40:10,709 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:10,709 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:10,709 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:10,733 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:10,740 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:10,740 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:10,740 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:10,740 - car_license - INFO - 字符识别结果: 津RE57BB
+2025-05-04 22:40:10,740 - car_license - INFO - 识别结果: 津RE57BB
+2025-05-04 22:40:21,020 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:21,020 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:21,020 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:21,035 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(50, 184, 3)
+2025-05-04 22:40:21,040 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:40:21,040 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:21,040 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:21,040 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:21,055 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:21,063 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:21,063 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:21,064 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:21,066 - car_license - INFO - 字符识别结果: 靑5Z5TT1
+2025-05-04 22:40:21,067 - car_license - INFO - 识别结果: 靑5Z5TT1
+2025-05-04 22:40:26,710 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:26,710 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:26,710 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:26,710 - car_license - INFO - 成功定位车牌区域: 颜色=yello, 尺寸=(43, 146, 3)
+2025-05-04 22:40:26,710 - car_license - INFO - 车牌颜色: yello
+2025-05-04 22:40:26,710 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:26,710 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:26,710 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:26,737 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:26,748 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:26,748 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:26,748 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:26,750 - car_license - INFO - 字符识别结果: 粤BB8555
+2025-05-04 22:40:26,751 - car_license - INFO - 识别结果: 粤BB8555
+2025-05-04 22:40:32,741 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:32,741 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:32,741 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:32,741 - car_license - INFO - 尝试车牌定位方法 2
+2025-05-04 22:40:32,741 - car_license - INFO - 尝试车牌定位方法 3
+2025-05-04 22:40:32,741 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(194, 463, 3)
+2025-05-04 22:40:32,759 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:40:32,759 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:32,759 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:32,760 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:32,760 - car_license - WARNING - 车牌宽高比异常: 2.39
+2025-05-04 22:40:32,773 - car_license - WARNING - 分割失败，使用固定比例法
+2025-05-04 22:40:32,773 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:32,776 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:32,776 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:32,776 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:32,786 - car_license - INFO - 字符识别结果: 黑883S35
+2025-05-04 22:40:32,786 - car_license - INFO - 识别结果: 黑883S35
+2025-05-04 22:40:38,969 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:38,969 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:38,969 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:38,969 - car_license - INFO - 成功定位车牌区域: 颜色=yello, 尺寸=(202, 526, 3)
+2025-05-04 22:40:38,985 - car_license - INFO - 车牌颜色: yello
+2025-05-04 22:40:38,986 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:38,986 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:38,986 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:38,987 - car_license - WARNING - 车牌宽高比异常: 2.60
+2025-05-04 22:40:38,989 - car_license - WARNING - 分割失败，使用固定比例法
+2025-05-04 22:40:38,989 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:39,007 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:39,007 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:39,007 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:39,016 - car_license - INFO - 字符识别结果: 京5555B8
+2025-05-04 22:40:39,016 - car_license - INFO - 识别结果: 京5555B8
+2025-05-04 22:40:42,937 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:42,937 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:42,937 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:42,937 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(73, 290, 3)
+2025-05-04 22:40:42,937 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:40:42,937 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:42,937 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:42,937 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:42,959 - car_license - WARNING - 分割失败，使用固定比例法
+2025-05-04 22:40:42,959 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:42,972 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:42,972 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:42,972 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:42,981 - car_license - INFO - 字符识别结果: 宁FE5555
+2025-05-04 22:40:42,981 - car_license - INFO - 识别结果: 宁FE5555
+2025-05-04 22:40:58,284 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 22:40:58,284 - car_license - INFO - 开始定位车牌
+2025-05-04 22:40:58,284 - car_license - INFO - 尝试车牌定位方法 1
+2025-05-04 22:40:58,284 - car_license - INFO - 成功定位车牌区域: 颜色=blue, 尺寸=(45, 125, 3)
+2025-05-04 22:40:58,284 - car_license - INFO - 车牌颜色: blue
+2025-05-04 22:40:58,284 - car_license - INFO - 步骤2: 开始字符分割
+2025-05-04 22:40:58,284 - car_license - INFO - 开始分割字符
+2025-05-04 22:40:58,284 - car_license - INFO - 预期字符数量: 7
+2025-05-04 22:40:58,305 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:58,318 - car_license - INFO - 成功分割出 7 个字符
+2025-05-04 22:40:58,319 - car_license - INFO - 步骤3: 开始字符识别
+2025-05-04 22:40:58,319 - car_license - INFO - 开始识别字符
+2025-05-04 22:40:58,319 - car_license - INFO - 字符识别结果: 津RE57BB
+2025-05-04 22:40:58,319 - car_license - INFO - 识别结果: 津RE57BB
+2025-05-04 22:41:56,231 - car_license - INFO - 关闭应用程序

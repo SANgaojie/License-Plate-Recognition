@@ -109,15 +109,17 @@ class LicensePlateRecognizer:
             self.debug_show(plate_img, "车牌区域")
             logger.info(f"车牌颜色: {plate_color}")
             
-            # 步骤2: 字符分割
+            # 步骤2: 字符分割 - 传递车牌颜色信息
             logger.info("步骤2: 开始字符分割")
-            char_imgs = self.char_segmenter.segment_chars(plate_img)
+            char_imgs = self.char_segmenter.segment_chars(plate_img, plate_color)
             if not char_imgs or len(char_imgs) == 0:
                 raise CharacterSegmentationError("未能分割字符")
             
             # 显示分割后的字符
             for i, char_img in enumerate(char_imgs):
                 self.debug_show(char_img, f"字符{i+1}")
+            
+            logger.info(f"成功分割出 {len(char_imgs)} 个字符")
             
             # 步骤3: 字符识别
             logger.info("步骤3: 开始字符识别")
