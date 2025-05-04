@@ -1,0 +1,1 @@
+# character_recognition模块初始化文件 

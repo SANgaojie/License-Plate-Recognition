@@ -1,0 +1,32 @@
+2025-05-04 18:28:11,005 - car_license - INFO - 正在加载配置文件: f:\code\DIP\carLicense\config.json
+2025-05-04 18:28:11,005 - car_license - INFO - 成功加载配置
+2025-05-04 18:28:11,022 - car_license - INFO - 启动车牌识别系统
+2025-05-04 18:28:11,459 - car_license - INFO - 初始化车牌识别系统
+2025-05-04 18:28:11,480 - car_license - INFO - 正在加载字符识别模型
+2025-05-04 18:28:11,604 - car_license - INFO - 成功加载英文数字识别模型
+2025-05-04 18:28:11,691 - car_license - INFO - 成功加载中文识别模型
+2025-05-04 18:28:11,748 - car_license - INFO - 开始训练识别模型
+2025-05-04 18:28:11,748 - car_license - INFO - 开始训练字符识别模型
+2025-05-04 18:28:32,234 - car_license - INFO - 英文数字训练样本: 13163
+2025-05-04 18:28:33,497 - car_license - INFO - 英文数字识别模型已保存: f:\code\DIP\carLicense\svm.dat
+2025-05-04 18:28:41,092 - car_license - INFO - 中文训练样本: 3232
+2025-05-04 18:28:41,559 - car_license - INFO - 中文识别模型已保存: f:\code\DIP\carLicense\svmchinese.dat
+2025-05-04 18:28:41,559 - car_license - INFO - 训练完成
+2025-05-04 18:29:07,203 - car_license - INFO - 步骤1: 开始车牌定位
+2025-05-04 18:29:07,203 - car_license - INFO - 开始定位车牌
+2025-05-04 18:29:07,435 - car_license - ERROR - 车牌定位失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'boxPoints'
+> Overload resolution failed:
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+
+2025-05-04 18:29:07,436 - car_license - ERROR - 车牌识别失败: 车牌定位失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'boxPoints'
+> Overload resolution failed:
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+
+2025-05-04 18:29:07,436 - car_license - ERROR - 识别失败: 车牌定位失败: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'boxPoints'
+> Overload resolution failed:
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+>  - Can't parse ''box' size'. Sequence item with index 0 has a wrong type
+
+2025-05-04 18:29:17,040 - car_license - INFO - 关闭应用程序
